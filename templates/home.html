@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLB First Inning Run Predictor</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+        .form-group {
+            margin-bottom: 25px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-weight: 500;
+            font-size: 1.1em;
+        }
+        input[type="number"], select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e1e5e9;
+            border-radius: 10px;
+            font-size: 1em;
+            transition: border-color 0.3s ease;
+            box-sizing: border-box;
+        }
+        input[type="number"]:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        .submit-btn {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+        .result {
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: 500;
+        }
+        .result.positive {
+            background: #d4edda;
+            color: #155724;
+            border: 2px solid #c3e6cb;
+        }
+        .result.negative {
+            background: #f8d7da;
+            color: #721c24;
+            border: 2px solid #f5c6cb;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .form-row {
+            display: flex;
+            gap: 20px;
+        }
+        .form-row .form-group {
+            flex: 1;
+        }
+        @media (max-width: 600px) {
+            .form-row {
+                flex-direction: column;
+                gap: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚾ MLB First Inning Prediction</h1>
+        
+        <form action="/predictdata" method="post">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="home_leadoff_avg">🏠 Home Team Leadoff Hitter Average:</label>
+                    <input type="number" id="home_leadoff_avg" name="home_leadoff_avg" 
+                           step="0.001" min="0" max="1" placeholder="e.g., 0.275" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="away_leadoff_avg">✈️ Away Team Leadoff Hitter Average:</label>
+                    <input type="number" id="away_leadoff_avg" name="away_leadoff_avg" 
+                           step="0.001" min="0" max="1" placeholder="e.g., 0.285" required>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="home_starting_pitcher_era">🏠 Home Starting Pitcher ERA:</label>
+                    <input type="number" id="home_starting_pitcher_era" name="home_starting_pitcher_era" 
+                           step="0.01" min="0" max="20" placeholder="e.g., 3.45" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="away_starting_pitcher_era">✈️ Away Starting Pitcher ERA:</label>
+                    <input type="number" id="away_starting_pitcher_era" name="away_starting_pitcher_era" 
+                           step="0.01" min="0" max="20" placeholder="e.g., 4.12" required>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="venue">🏟️ Venue:</label>
+                <select id="venue" name="venue" required>
+                    <option value="">Select a stadium...</option>
+                    <option value="Truist Park">Truist Park (Atlanta Braves)</option>
+                    <option value="Oriole Park at Camden Yards">Oriole Park at Camden Yards (Baltimore Orioles)</option>
+                    <option value="Fenway Park">Fenway Park (Boston Red Sox)</option>
+                    <option value="Guaranteed Rate Field">Guaranteed Rate Field (Chicago White Sox)</option>
+                    <option value="Wrigley Field">Wrigley Field (Chicago Cubs)</option>
+                    <option value="Great American Ball Park">Great American Ball Park (Cincinnati Reds)</option>
+                    <option value="Progressive Field">Progressive Field (Cleveland Guardians)</option>
+                    <option value="Coors Field">Coors Field (Colorado Rockies)</option>
+                    <option value="Comerica Park">Comerica Park (Detroit Tigers)</option>
+                    <option value="Minute Maid Park">Minute Maid Park (Houston Astros)</option>
+                    <option value="Kauffman Stadium">Kauffman Stadium (Kansas City Royals)</option>
+                    <option value="Angel Stadium">Angel Stadium (Los Angeles Angels)</option>
+                    <option value="Dodger Stadium">Dodger Stadium (Los Angeles Dodgers)</option>
+                    <option value="LoanDepot Park">LoanDepot Park (Miami Marlins)</option>
+                    <option value="American Family Field">American Family Field (Milwaukee Brewers)</option>
+                    <option value="Target Field">Target Field (Minnesota Twins)</option>
+                    <option value="Citi Field">Citi Field (New York Mets)</option>
+                    <option value="Yankee Stadium">Yankee Stadium (New York Yankees)</option>
+                    <option value="Oakland Coliseum">Oakland Coliseum (Oakland Athletics)</option>
+                    <option value="Citizens Bank Park">Citizens Bank Park (Philadelphia Phillies)</option>
+                    <option value="PNC Park">PNC Park (Pittsburgh Pirates)</option>
+                    <option value="Petco Park">Petco Park (San Diego Padres)</option>
+                    <option value="Oracle Park">Oracle Park (San Francisco Giants)</option>
+                    <option value="T-Mobile Park">T-Mobile Park (Seattle Mariners)</option>
+                    <option value="Busch Stadium">Busch Stadium (St. Louis Cardinals)</option>
+                    <option value="Tropicana Field">Tropicana Field (Tampa Bay Rays)</option>
+                    <option value="Globe Life Field">Globe Life Field (Texas Rangers)</option>
+                    <option value="Rogers Centre">Rogers Centre (Toronto Blue Jays)</option>
+                    <option value="Nationals Park">Nationals Park (Washington Nationals)</option>
+                </select>
+            </div>
+            
+            <button type="submit" class="submit-btn">🔮 Predict First Inning Run</button>
+        </form>
+        
+        {% if error is defined %}
+        <div class="result" style="background: #f8d7da; color: #721c24; border: 2px solid #f5c6cb;">
+            ❌ <strong>Error:</strong> {{ error }}
+        </div>
+        {% elif results is defined %}
+        <div class="result {% if results.prediction == 1 %}positive{% else %}negative{% endif %}">
+            {% if results.prediction == 1 %}
+                🎉 <strong>RUN PREDICTED!</strong> The model predicts there will be a run scored in the first inning!
+            {% else %}
+                🚫 <strong>NO RUN PREDICTED.</strong> The model predicts there will NOT be a run scored in the first inning.
+            {% endif %}
+            
+            <div style="margin-top: 15px; font-size: 1em;">
+                <strong>📊 Prediction Probabilities:</strong><br>
+                🚫 No Run: <strong>{{ "%.1f"|format(results.prob_no_run * 100) }}%</strong><br>
+                ⚾ Run: <strong>{{ "%.1f"|format(results.prob_run * 100) }}%</strong>
+            </div>
+        </div>
+        {% endif %}
+        
+        <a href="/" class="back-link">← Back to Home</a>
+    </div>
+</body>
+</html>

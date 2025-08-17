@@ -20,6 +20,19 @@ class PredictPipeline:
         except Exception as e:
             logging.error(f"Error occurred during prediction: {e}")
             raise CustomException(e, sys)
+    
+    def predict_proba(self, features):
+        try:
+            model_path = 'artifacts/model.pkl'
+            preprocessor_path = 'artifacts/preprocessor.pkl'
+            model=load_object(file_path=model_path)
+            preprocessor=load_object(file_path=preprocessor_path)
+            data_scaled = preprocessor.transform(features)
+            proba = model.predict_proba(data_scaled)
+            return proba
+        except Exception as e:
+            logging.error(f"Error occurred during probability prediction: {e}")
+            raise CustomException(e, sys)
 
 class CustomData:
     def __init__(self,

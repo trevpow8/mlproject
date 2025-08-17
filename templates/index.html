@@ -1,1 +1,89 @@
-<h1>Welcome to the Home Page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLB First Inning Run Predictor</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 50px 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        .features {
+            margin-top: 40px;
+            text-align: left;
+        }
+        .feature {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚾ MLB First Inning Run Predictor</h1>
+        <p class="subtitle">
+            Predict whether there will be a run scored in the first inning of an MLB game using advanced machine learning algorithms trained on historical baseball data.
+        </p>
+        
+        <a href="/predictdata" class="cta-button">🚀 Make a Prediction</a>
+        
+        <div class="features">
+            <div class="feature">
+                <strong>🎯 Accurate Predictions:</strong> Uses multiple ML algorithms to provide reliable forecasts
+            </div>
+            <div class="feature">
+                <strong>📊 Key Factors:</strong> Analyzes leadoff hitter averages, starting pitcher ERAs, and venue
+            </div>
+            <div class="feature">
+                <strong>🏟️ Stadium Impact:</strong> Considers venue-specific factors that affect scoring
+            </div>
+        </div>
+    </div>
+</body>
+</html>

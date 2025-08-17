@@ -73,8 +73,18 @@ class DataTransformation:
             input_feature_train_arr = preprocessing_obj.fit_transform(input_feature_train_df)
             input_feature_test_arr = preprocessing_obj.transform(input_feature_test_df)
 
-            train_arr = np.c_[input_feature_train_arr, np.array(target_feature_train_df)]
-            test_arr = np.c_[input_feature_test_arr, np.array(target_feature_test_df)]
+            # Convert sparse arrays to dense if needed
+            if hasattr(input_feature_train_arr, 'toarray'):
+                input_feature_train_arr = input_feature_train_arr.toarray()
+            if hasattr(input_feature_test_arr, 'toarray'):
+                input_feature_test_arr = input_feature_test_arr.toarray()
+
+            # Create target arrays
+            target_train_arr = np.array(target_feature_train_df).reshape(-1, 1)
+            target_test_arr = np.array(target_feature_test_df).reshape(-1, 1)
+
+            train_arr = np.hstack([input_feature_train_arr, target_train_arr])
+            test_arr = np.hstack([input_feature_test_arr, target_test_arr])
 
             logging.info("Saved preprocessing object")
 

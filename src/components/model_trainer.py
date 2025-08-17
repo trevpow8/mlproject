@@ -3,11 +3,7 @@ import sys
 from dataclasses import dataclass
 
 from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-from xgboost import XGBClassifier
-from catboost import CatBoostClassifier
-from sklearn.metrics import r2_score
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score
 from src.exception import CustomException
 from src.logger import logging
 from src.utils import save_object, evaluate_models
@@ -27,12 +23,7 @@ class ModelTrainer:
             X_test, y_test = test_array[:, :-1], test_array[:, -1]
 
             models = {
-                "Logistic Regression": LogisticRegression(),
-                "Decision Tree": DecisionTreeClassifier(),
-                "Random Forest": RandomForestClassifier(),
-                "Gradient Boosting": GradientBoostingClassifier(),
-                "XGB Classifier": XGBClassifier(),
-                "CatBoost Classifier": CatBoostClassifier(verbose=False)
+                "Logistic Regression": LogisticRegression(random_state=42, max_iter=1000)
             }
 
             model_report: dict = evaluate_models(X_train=X_train, y_train=y_train, X_test=X_test, y_test=y_test, models=models)
@@ -42,7 +33,7 @@ class ModelTrainer:
             best_model = models[best_model_name]
 
             if best_model_score < 0.5:
-                raise CustomException("No best model found with score greater than 0.6", sys)
+                raise CustomException("No best model found with score greater than 0.5", sys)
 
             logging.info(f"Best model found: {best_model_name} with score {best_model_score}")
 
@@ -52,8 +43,8 @@ class ModelTrainer:
             )
 
             predicted = best_model.predict(X_test)
-            r2_square = r2_score(y_test, predicted)
-            return r2_square
+            accuracy = accuracy_score(y_test, predicted)
+            return accuracy
         except Exception as e:
             logging.error(f"Error occurred in model trainer: {e}")
             raise CustomException(e, sys)
