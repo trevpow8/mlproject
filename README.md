@@ -4,28 +4,20 @@ An end-to-end machine learning project that predicts the probability of runs bei
 
 ## 🎯 Current Features
 
-### **Working ML Pipeline**
-- **Data Ingestion**: Automated reading and processing of MLB game data
-- **Data Transformation**: Feature engineering with preprocessing pipelines for numerical and categorical data
-- **Model Training**: Logistic regression classifier optimized for first inning run prediction
-- **Model Persistence**: Trained models saved as pickle files for consistent predictions
+- **Complete ML Pipeline**: Data ingestion, transformation, and model training using scikit-learn
+- **Logistic Regression Model**: Trained on historical MLB game data with ~52.6% accuracy
+- **Flask Web Interface**: Clean, responsive UI for making predictions
+- **Probability Predictions**: Shows percentage probability of runs vs no runs in first inning
 
-### **Web Application**
-- **Beautiful Flask Interface**: Modern, responsive web UI for making predictions
-- **Real-time Predictions**: Input game parameters and get instant probability predictions
-- **Probability Display**: Shows both binary prediction and percentage probabilities for "no run" vs "run"
+### **Input Features**
+- Home/Away team leadoff hitter batting averages
+- Home/Away starting pitcher ERAs
+- Stadium/Venue selection
 
-### **Key Input Features**
-- Home team leadoff hitter batting average
-- Away team leadoff hitter batting average  
-- Home starting pitcher ERA
-- Away starting pitcher ERA
-- Venue/Stadium selection (accounts for park factors)
-
-### **Model Performance**
-- **Algorithm**: Logistic Regression
-- **Current Accuracy**: ~52.6% on test data
-- **Output**: Probability of no runs in first inning (primary focus)
+### **Tech Stack**
+- Python, Flask, scikit-learn, pandas, numpy
+- HTML/CSS for frontend
+- Pickle files for model persistence
 
 ## 🚀 How to Run Locally
 
@@ -90,69 +82,11 @@ mlproject/
     └── EDA MLB First Inning.ipynb  # Exploratory data analysis
 ```
 
-## 🔮 Future Enhancements & Roadmap
+## 🔮 Future Plans
 
-### **Immediate Improvements**
-- [ ] **Real-time Data Integration**: Connect to live MLB APIs for upcoming game predictions
-- [ ] **Enhanced Model Performance**: 
-  - Experiment with ensemble methods (Random Forest, XGBoost, CatBoost)
-  - Feature engineering: weather data, recent team performance, pitcher matchups
-  - Hyperparameter tuning and cross-validation
-- [ ] **Additional Features**:
-  - Recent team scoring trends (last 10 games)
-  - Pitcher vs opposing team historical performance
-  - Weather conditions (temperature, wind, humidity)
-  - Day/night game factors
-  - Team rest days
-
-### **Advanced Features Planned**
-- [ ] **Live Game Integration**: 
-  - Fetch upcoming games from MLB API
-  - Real-time roster and lineup updates
-  - Injury reports and player status
-- [ ] **Model Improvements**:
-  - Deep learning models for complex pattern recognition
-  - Time series analysis for team momentum
-  - Player-specific performance trends
-  - Ballpark factor analysis
-- [ ] **Enhanced UI/UX**:
-  - Today's games dashboard
-  - Historical prediction accuracy tracking
-  - Betting odds comparison
-  - Mobile-responsive design improvements
-
-### **Long-term Vision**
-- [ ] **Multi-inning Predictions**: Expand beyond first inning to predict total runs
-- [ ] **Player Impact Analysis**: Individual player contribution to first inning scoring
-- [ ] **Historical Backtesting**: Validate model performance across multiple seasons
-- [ ] **API Development**: REST API for external integrations
-- [ ] **Database Integration**: PostgreSQL for scalable data storage
-- [ ] **Deployment**: Docker containerization and cloud deployment (AWS/GCP)
-
-## 📈 Technical Improvements Needed
-
-### **Data Quality**
-- Expand dataset with more historical seasons
-- Add real-time data validation and cleaning
-- Implement data drift detection
-
-### **Model Performance**
-- Current accuracy of 52.6% needs improvement
-- Implement model versioning and A/B testing
-- Add confidence intervals for predictions
-
-### **Infrastructure**
-- Add automated testing suite
-- Implement CI/CD pipeline
-- Add monitoring and alerting for model performance
-
-## 🤝 Contributing
-
-This project is currently in active development. Future contributions will focus on:
-- Model performance improvements
-- Real-time data integration
-- Enhanced feature engineering
-- UI/UX improvements
+- **Model Improvements**: Experiment with better algorithms and additional features
+- **Live Data Integration**: Connect to MLB APIs for upcoming game predictions  
+- **Cloud Deployment**: Move from local hosting to cloud platform (AWS/GCP) for public access
 
 ## 📋 Dependencies
 
