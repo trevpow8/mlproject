@@ -85,7 +85,9 @@ mlproject/
 ## 🔮 Future Plans
 
 - **Model Improvements**: Experiment with better algorithms and additional features
-- **Live Data Integration**: Connect to MLB APIs for upcoming game predictions  
+- **Live Data Integration**: Connect to MLB APIs for upcoming game predictions
+- **Connection to Sportsbooks**: Connect to various sportsbooks to see if bet is favorable
+- **Tracking over Time**: Track bets over time, expand types of predictions
 - **Cloud Deployment**: Move from local hosting to cloud platform (AWS/GCP) for public access
 
 ## 📋 Dependencies
