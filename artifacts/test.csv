@@ -1,0 +1,233 @@
+game_id,date,venue,home_team,away_team,home_leadoff_avg,away_leadoff_avg,home_starting_pitcher_era,away_starting_pitcher_era,first_inning_run
+777853,2025-05-19,Sutter Health Park,Athletics,Los Angeles Angels,0.228,0.282,5.6,3.57,True
+777008,2025-07-25,American Family Field,Milwaukee Brewers,Miami Marlins,0.276,0.291,2.81,5.05,False
+777214,2025-07-06,Rogers Centre,Toronto Blue Jays,Los Angeles Angels,0.297,0.265,4.13,4.19,True
+777275,2025-07-02,loanDepot park,Miami Marlins,Minnesota Twins,0.283,0.277,3.62,4.41,True
+777486,2025-06-16,T-Mobile Park,Seattle Mariners,Boston Red Sox,0.293,0.264,2.55,4.73,True
+777804,2025-05-23,Sutter Health Park,Athletics,Philadelphia Phillies,0.236,0.31,2.57,2.42,True
+776843,2025-08-06,Angel Stadium,Los Angeles Angels,Tampa Bay Rays,0.267,0.293,4.63,4.92,True
+777128,2025-07-13,Great American Ball Park,Cincinnati Reds,Colorado Rockies,0.276,0.323,4.78,5.65,True
+777565,2025-06-10,Fenway Park,Boston Red Sox,Tampa Bay Rays,0.271,0.252,5.45,3.31,True
+776904,2025-08-02,Coors Field,Colorado Rockies,Pittsburgh Pirates,0.272,0.31,6.18,2.02,True
+777016,2025-07-25,Comerica Park,Detroit Tigers,Toronto Blue Jays,0.254,0.268,4.66,3.83,False
+777781,2025-05-24,Angel Stadium,Los Angeles Angels,Miami Marlins,0.286,0.221,3.73,6.09,False
+777272,2025-07-02,PNC Park,Pittsburgh Pirates,St. Louis Cardinals,0.25,0.293,3.64,3.51,False
+777410,2025-06-21,Coors Field,Colorado Rockies,Arizona Diamondbacks,0.326,0.311,7.63,3.39,True
+776924,2025-08-01,Progressive Field,Cleveland Guardians,Minnesota Twins,0.287,0.6,3.33,2.83,True
+776962,2025-07-29,Oriole Park at Camden Yards,Baltimore Orioles,Toronto Blue Jays,0.259,0.253,6.63,2.68,False
+777808,2025-05-23,Citi Field,New York Mets,Los Angeles Dodgers,0.277,0.302,2.88,7.5,False
+777280,2025-07-01,Dodger Stadium,Los Angeles Dodgers,Chicago White Sox,0.287,0.271,2.51,3.86,True
+776796,2025-08-10,Target Field,Minnesota Twins,Kansas City Royals,0.267,0.229,4.97,2.87,True
+776888,2025-08-03,Wrigley Field,Chicago Cubs,Baltimore Orioles,0.27,0.258,4.23,5.88,True
+777009,2025-07-25,Globe Life Field,Texas Rangers,Atlanta Braves,0.258,0.247,1.5,5.76,True
+777130,2025-07-13,Fenway Park,Boston Red Sox,Tampa Bay Rays,0.258,0.308,3.14,3.38,False
+777786,2025-05-24,Busch Stadium,St. Louis Cardinals,Arizona Diamondbacks,0.249,0.278,2.73,3.52,True
+777001,2025-07-26,Yankee Stadium,New York Yankees,Philadelphia Phillies,0.252,0.296,6.09,2.59,True
+777399,2025-06-22,Coors Field,Colorado Rockies,Arizona Diamondbacks,0.323,0.256,6.48,5.49,False
+777590,2025-06-08,Rate Field,Chicago White Sox,Kansas City Royals,0.288,0.248,2.18,4.94,True
+777865,2025-05-18,American Family Field,Milwaukee Brewers,Minnesota Twins,0.288,0.244,2.59,12.0,False
+777654,2025-06-04,Truist Park,Atlanta Braves,Arizona Diamondbacks,0.341,0.293,2.93,3.43,False
+777015,2025-07-25,Yankee Stadium,New York Yankees,Philadelphia Phillies,0.251,0.296,4.82,3.84,True
+777088,2025-07-19,Globe Life Field,Texas Rangers,Detroit Tigers,0.272,0.26,5.66,4.28,False
+776993,2025-07-26,Globe Life Field,Texas Rangers,Atlanta Braves,0.269,0.247,5.73,3.99,True
+777560,2025-06-10,Petco Park,San Diego Padres,Los Angeles Dodgers,0.262,0.292,4.28,3.8,False
+777838,2025-05-20,Dodger Stadium,Los Angeles Dodgers,Arizona Diamondbacks,0.311,0.277,1.86,4.6,False
+777407,2025-06-22,Busch Stadium,St. Louis Cardinals,Cincinnati Reds,0.308,0.29,4.31,1.79,True
+777113,2025-07-13,Target Field,Minnesota Twins,Pittsburgh Pirates,0.289,0.232,3.95,3.48,False
+777874,2025-05-18,Great American Ball Park,Cincinnati Reds,Cleveland Guardians,0.265,0.311,1.8,4.66,False
+777815,2025-05-23,Fenway Park,Boston Red Sox,Baltimore Orioles,0.268,0.272,4.08,4.86,False
+776991,2025-07-26,Daikin Park,Houston Astros,Athletics,0.26,0.238,2.54,4.29,True
+777759,2025-05-26,Globe Life Field,Texas Rangers,Toronto Blue Jays,0.213,0.27,2.42,3.68,True
+777584,2025-06-09,Fenway Park,Boston Red Sox,Tampa Bay Rays,0.271,0.262,3.96,4.97,False
+776805,2025-08-09,T-Mobile Park,Seattle Mariners,Tampa Bay Rays,0.25,0.277,4.36,3.82,True
+777193,2025-07-08,American Family Field,Milwaukee Brewers,Los Angeles Dodgers,0.293,0.281,2.81,3.38,True
+777873,2025-05-18,Oriole Park at Camden Yards,Baltimore Orioles,Washington Nationals,0.275,0.312,5.08,5.95,True
+777211,2025-07-07,Comerica Park,Detroit Tigers,Tampa Bay Rays,0.264,0.289,3.77,4.34,False
+777492,2025-06-15,American Family Field,Milwaukee Brewers,St. Louis Cardinals,0.294,0.313,3.46,4.35,False
+777828,2025-05-21,Sutter Health Park,Athletics,Los Angeles Angels,0.232,0.283,4.0,5.03,False
+777605,2025-06-07,Yankee Stadium,New York Yankees,Boston Red Sox,0.313,0.274,4.17,2.35,False
+776836,2025-08-06,Coors Field,Colorado Rockies,Toronto Blue Jays,0.302,0.239,5.53,3.85,True
+777423,2025-06-21,Citizens Bank Park,Philadelphia Phillies,New York Mets,0.298,0.267,3.47,3.91,True
+777032,2025-07-23,Chase Field,Arizona Diamondbacks,Houston Astros,0.287,0.217,4.76,3.35,True
+777637,2025-06-05,Rogers Centre,Toronto Blue Jays,Philadelphia Phillies,0.279,0.244,3.56,4.46,False
+776798,2025-08-10,Rate Field,Chicago White Sox,Cleveland Guardians,0.277,0.278,4.17,4.11,True
+777871,2025-05-18,Rogers Centre,Toronto Blue Jays,Detroit Tigers,0.292,0.291,4.19,4.12,True
+777243,2025-07-04,Coors Field,Colorado Rockies,Chicago White Sox,0.326,0.271,6.57,1.6,False
+777620,2025-06-06,Busch Stadium,St. Louis Cardinals,Los Angeles Dodgers,0.247,0.294,3.35,7.2,False
+777089,2025-07-19,Citizens Bank Park,Philadelphia Phillies,Los Angeles Angels,0.289,0.28,3.75,3.13,True
+777799,2025-05-23,Target Field,Minnesota Twins,Kansas City Royals,0.272,0.231,2.31,0.93,True
+777375,2025-06-24,Target Field,Minnesota Twins,Seattle Mariners,0.28,0.284,4.64,3.69,False
+777641,2025-06-04,Oracle Park,San Francisco Giants,San Diego Padres,0.292,0.273,4.34,3.16,True
+777706,2025-05-31,Truist Park,Atlanta Braves,Boston Red Sox,0.367,0.27,3.13,4.44,True
+776853,2025-08-06,Truist Park,Atlanta Braves,Milwaukee Brewers,0.249,0.298,4.04,3.57,True
+776844,2025-08-06,PNC Park,Pittsburgh Pirates,San Francisco Giants,0.237,0.274,4.77,2.85,True
+777479,2025-06-17,Rogers Centre,Toronto Blue Jays,Arizona Diamondbacks,0.27,0.254,3.75,5.38,True
+777521,2025-06-13,Chase Field,Arizona Diamondbacks,San Diego Padres,0.26,0.264,4.14,3.5,True
+777708,2025-05-30,Dodger Stadium,Los Angeles Dodgers,New York Yankees,0.294,0.259,5.23,1.92,True
+776973,2025-07-28,Comerica Park,Detroit Tigers,Arizona Diamondbacks,0.212,0.245,4.5,5.63,True
+777623,2025-06-07,Great American Ball Park,Cincinnati Reds,Arizona Diamondbacks,0.3,0.298,3.21,6.7,False
+777488,2025-06-16,Nationals Park,Washington Nationals,Colorado Rockies,0.276,0.26,4.23,7.76,True
+777725,2025-05-29,Daikin Park,Houston Astros,Tampa Bay Rays,0.3,0.294,4.62,4.92,True
+777574,2025-06-09,PNC Park,Pittsburgh Pirates,Miami Marlins,0.227,0.288,5.0,12.0,False
+777349,2025-06-27,Progressive Field,Cleveland Guardians,St. Louis Cardinals,0.302,0.3,4.36,3.36,False
+777173,2025-07-09,Target Field,Minnesota Twins,Chicago Cubs,0.27,0.227,5.25,4.45,True
+777401,2025-06-22,Target Field,Minnesota Twins,Milwaukee Brewers,0.285,0.298,0.87,3.68,True
+777266,2025-07-02,Wrigley Field,Chicago Cubs,Cleveland Guardians,0.235,0.292,2.78,4.2,False
+777194,2025-07-08,Kauffman Stadium,Kansas City Royals,Pittsburgh Pirates,0.243,0.24,2.67,3.58,False
+777353,2025-06-26,Kauffman Stadium,Kansas City Royals,Tampa Bay Rays,0.239,0.286,4.91,4.37,False
+777470,2025-06-18,Truist Park,Atlanta Braves,New York Mets,0.39,0.271,2.52,6.92,True
+777072,2025-07-20,Coors Field,Colorado Rockies,Minnesota Twins,0.267,0.246,5.67,2.63,False
+777809,2025-05-24,Fenway Park,Boston Red Sox,Baltimore Orioles,0.272,0.27,4.21,5.4,True
+777097,2025-07-19,Truist Park,Atlanta Braves,New York Yankees,0.254,0.289,5.71,4.91,False
+777573,2025-06-10,Oriole Park at Camden Yards,Baltimore Orioles,Detroit Tigers,0.267,0.5,5.46,1.75,False
+776772,2025-08-12,Citi Field,New York Mets,Atlanta Braves,0.243,0.234,3.71,4.69,True
+776912,2025-08-02,Citizens Bank Park,Philadelphia Phillies,Detroit Tigers,0.286,0.258,2.64,2.18,False
+777098,2025-07-18,Globe Life Field,Texas Rangers,Detroit Tigers,0.275,0.277,3.91,2.71,False
+777186,2025-07-08,Oracle Park,San Francisco Giants,Philadelphia Phillies,0.269,0.298,2.63,3.55,False
+777249,2025-07-04,Progressive Field,Cleveland Guardians,Detroit Tigers,0.296,0.258,3.56,2.89,True
+777450,2025-06-19,Wrigley Field,Chicago Cubs,Milwaukee Brewers,0.246,0.287,3.84,2.76,True
+776847,2025-08-06,Wrigley Field,Chicago Cubs,Cincinnati Reds,0.292,0.275,3.18,2.34,False
+777667,2025-06-03,Fenway Park,Boston Red Sox,Los Angeles Angels,0.273,0.266,3.91,3.23,False
+777227,2025-07-05,Sutter Health Park,Athletics,San Francisco Giants,0.256,0.246,5.3,2.62,True
+777610,2025-06-07,Nationals Park,Washington Nationals,Texas Rangers,0.261,0.266,4.31,2.12,True
+777501,2025-06-15,Oriole Park at Camden Yards,Baltimore Orioles,Los Angeles Angels,0.234,0.276,3.69,3.05,True
+777814,2025-05-22,PNC Park,Pittsburgh Pirates,Milwaukee Brewers,0.223,0.28,7.2,9.0,True
+777507,2025-06-14,T-Mobile Park,Seattle Mariners,Cleveland Guardians,0.295,0.302,5.96,3.79,True
+777905,2025-05-16,Citizens Bank Park,Philadelphia Phillies,Pittsburgh Pirates,0.302,0.276,5.09,3.02,False
+776935,2025-07-30,Target Field,Minnesota Twins,Boston Red Sox,0.239,0.279,5.67,3.19,False
+777321,2025-06-28,American Family Field,Milwaukee Brewers,Colorado Rockies,0.295,0.319,3.35,6.69,True
+777144,2025-07-12,Fenway Park,Boston Red Sox,Tampa Bay Rays,0.258,0.283,2.23,4.17,False
+777255,2025-07-04,Citizens Bank Park,Philadelphia Phillies,Cincinnati Reds,0.299,0.283,4.44,2.15,True
+777554,2025-06-11,American Family Field,Milwaukee Brewers,Atlanta Braves,0.261,0.353,3.25,3.11,False
+777451,2025-06-19,Comerica Park,Detroit Tigers,Pittsburgh Pirates,0.281,0.226,2.06,3.94,True
+777660,2025-06-03,Busch Stadium,St. Louis Cardinals,Kansas City Royals,0.249,0.244,4.91,5.12,True
+777840,2025-05-20,Busch Stadium,St. Louis Cardinals,Detroit Tigers,0.251,0.283,3.77,2.87,True
+777893,2025-05-17,Fenway Park,Boston Red Sox,Atlanta Braves,0.262,0.248,7.08,4.01,True
+776872,2025-08-04,Coors Field,Colorado Rockies,Toronto Blue Jays,0.305,0.258,6.59,2.59,True
+777251,2025-07-03,T-Mobile Park,Seattle Mariners,Kansas City Royals,0.285,0.244,2.96,2.65,False
+777151,2025-07-11,Kauffman Stadium,Kansas City Royals,New York Mets,0.246,0.261,3.74,1.39,False
+777182,2025-07-09,Comerica Park,Detroit Tigers,Tampa Bay Rays,0.271,0.287,2.95,3.56,True
+777324,2025-06-28,Comerica Park,Detroit Tigers,Minnesota Twins,0.245,0.286,2.86,5.28,False
+777511,2025-06-14,Kauffman Stadium,Kansas City Royals,Athletics,0.312,0.262,4.91,4.8,False
+777623,2025-06-06,Great American Ball Park,Cincinnati Reds,Arizona Diamondbacks,0.3,0.298,3.21,6.7,False
+777817,2025-05-22,Coors Field,Colorado Rockies,Philadelphia Phillies,0.264,0.259,7.66,3.7,False
+777775,2025-05-25,George M. Steinbrenner Field,Tampa Bay Rays,Toronto Blue Jays,0.242,0.275,3.55,3.38,True
+777189,2025-07-08,Sutter Health Park,Athletics,Atlanta Braves,0.256,0.225,3.92,13.85,True
+777571,2025-06-10,Citizens Bank Park,Philadelphia Phillies,Chicago Cubs,0.299,0.255,2.35,3.92,False
+776831,2025-08-08,Oriole Park at Camden Yards,Baltimore Orioles,Athletics,0.251,0.294,4.24,4.39,True
+777253,2025-07-03,Dodger Stadium,Los Angeles Dodgers,Chicago White Sox,0.284,0.264,4.52,4.6,True
+777690,2025-06-01,Daikin Park,Houston Astros,Tampa Bay Rays,0.309,0.322,1.83,3.95,True
+777018,2025-07-24,Angel Stadium,Los Angeles Angels,Seattle Mariners,0.276,0.278,3.23,3.64,True
+777468,2025-06-17,Globe Life Field,Texas Rangers,Kansas City Royals,0.273,0.243,4.4,3.05,True
+776834,2025-08-08,Truist Park,Atlanta Braves,Miami Marlins,0.234,0.303,6.12,3.08,False
+777212,2025-07-07,Rate Field,Chicago White Sox,Toronto Blue Jays,0.299,0.271,4.4,3.53,False
+776780,2025-08-11,Oracle Park,San Francisco Giants,San Diego Padres,0.271,0.264,3.34,5.61,False
+777269,2025-07-02,Coors Field,Colorado Rockies,Houston Astros,0.323,0.253,5.49,1.82,True
+777003,2025-07-26,Comerica Park,Detroit Tigers,Toronto Blue Jays,0.273,0.209,2.09,3.82,False
+777528,2025-06-13,Citi Field,New York Mets,Tampa Bay Rays,0.278,0.227,2.87,4.35,False
+777190,2025-07-08,Target Field,Minnesota Twins,Chicago Cubs,0.27,0.23,4.08,2.8,True
+777068,2025-07-21,Progressive Field,Cleveland Guardians,Baltimore Orioles,0.288,0.26,4.27,4.54,True
+777906,2025-05-16,Rogers Centre,Toronto Blue Jays,Detroit Tigers,0.294,0.298,5.63,4.44,False
+777326,2025-06-28,Yankee Stadium,New York Yankees,Athletics,0.285,0.248,3.09,5.09,False
+777778,2025-05-25,Nationals Park,Washington Nationals,San Francisco Giants,0.294,0.262,5.61,2.56,False
+777847,2025-05-20,PNC Park,Pittsburgh Pirates,Cincinnati Reds,0.22,0.28,3.5,3.43,False
+777879,2025-05-17,Oracle Park,San Francisco Giants,Athletics,0.278,0.333,4.11,4.22,False
+777387,2025-06-24,Citi Field,New York Mets,Atlanta Braves,0.268,0.385,3.0,4.07,False
+777476,2025-06-17,Yankee Stadium,New York Yankees,Los Angeles Angels,0.236,0.279,4.83,4.79,False
+776810,2025-08-09,Globe Life Field,Texas Rangers,Philadelphia Phillies,0.26,0.284,2.86,4.2,True
+777005,2025-07-25,Busch Stadium,St. Louis Cardinals,San Diego Padres,0.293,0.269,4.94,2.81,False
+776788,2025-08-10,Dodger Stadium,Los Angeles Dodgers,Toronto Blue Jays,0.284,0.26,3.08,2.82,True
+777449,2025-06-19,Yankee Stadium,New York Yankees,Los Angeles Angels,0.303,0.268,3.1,4.56,True
+777085,2025-07-19,Dodger Stadium,Los Angeles Dodgers,Milwaukee Brewers,0.274,0.275,4.41,2.85,False
+777412,2025-06-21,Target Field,Minnesota Twins,Milwaukee Brewers,0.278,0.296,5.06,2.98,True
+776900,2025-08-02,Rogers Centre,Toronto Blue Jays,Kansas City Royals,0.218,0.242,4.39,2.68,False
+777755,2025-05-27,Comerica Park,Detroit Tigers,San Francisco Giants,0.276,0.257,3.94,2.82,True
+776781,2025-08-11,Rate Field,Chicago White Sox,Detroit Tigers,0.274,0.268,5.0,4.76,False
+777228,2025-07-05,Nationals Park,Washington Nationals,Boston Red Sox,0.286,0.25,4.72,6.25,True
+777132,2025-07-12,Sutter Health Park,Athletics,Toronto Blue Jays,0.25,0.291,4.2,4.19,False
+777394,2025-06-23,Oriole Park at Camden Yards,Baltimore Orioles,Texas Rangers,0.265,0.278,1.62,4.24,False
+777720,2025-05-30,Oriole Park at Camden Yards,Baltimore Orioles,Chicago White Sox,0.27,0.276,4.46,6.14,False
+777025,2025-07-24,Daikin Park,Houston Astros,Athletics,0.26,0.248,8.14,4.95,False
+777697,2025-05-31,Globe Life Field,Texas Rangers,St. Louis Cardinals,0.259,0.248,3.71,3.65,False
+777382,2025-06-23,Petco Park,San Diego Padres,Washington Nationals,0.267,0.284,3.95,4.59,False
+777120,2025-07-13,Rate Field,Chicago White Sox,Cleveland Guardians,0.243,0.285,5.3,4.17,False
+777753,2025-05-27,Progressive Field,Cleveland Guardians,Los Angeles Dodgers,0.314,0.296,3.86,4.2,False
+777271,2025-07-02,George M. Steinbrenner Field,Tampa Bay Rays,Athletics,0.269,0.189,3.34,4.06,True
+777441,2025-06-19,Sutter Health Park,Athletics,Houston Astros,0.257,0.322,4.25,4.54,False
+776830,2025-08-07,T-Mobile Park,Seattle Mariners,Chicago White Sox,0.245,0.279,3.35,4.22,False
+777273,2025-07-02,Citizens Bank Park,Philadelphia Phillies,San Diego Padres,0.298,0.258,5.04,3.25,False
+777002,2025-07-26,PNC Park,Pittsburgh Pirates,Arizona Diamondbacks,0.245,0.284,4.79,3.22,False
+777671,2025-06-02,Great American Ball Park,Cincinnati Reds,Milwaukee Brewers,0.305,0.271,4.66,5.19,True
+777535,2025-06-13,Truist Park,Atlanta Braves,Colorado Rockies,0.375,0.265,4.45,6.62,True
+777020,2025-07-25,Oriole Park at Camden Yards,Baltimore Orioles,Colorado Rockies,0.262,0.308,4.23,5.24,True
+776983,2025-07-27,Fenway Park,Boston Red Sox,Los Angeles Dodgers,0.267,0.237,5.72,4.85,True
+776922,2025-08-01,Fenway Park,Boston Red Sox,Houston Astros,0.283,0.326,3.57,2.47,False
+776863,2025-08-05,Citi Field,New York Mets,Cleveland Guardians,0.269,0.285,3.46,3.96,True
+776777,2025-08-12,Great American Ball Park,Cincinnati Reds,Philadelphia Phillies,0.274,0.282,4.31,3.28,False
+777806,2025-05-23,PNC Park,Pittsburgh Pirates,Milwaukee Brewers,0.229,0.277,2.36,2.55,False
+777378,2025-06-24,Kauffman Stadium,Kansas City Royals,Tampa Bay Rays,0.238,0.289,2.18,4.57,False
+777908,2025-05-16,Fenway Park,Boston Red Sox,Atlanta Braves,0.259,0.26,2.0,3.62,False
+777038,2025-07-23,Citizens Bank Park,Philadelphia Phillies,Boston Red Sox,0.29,0.27,4.58,3.97,True
+777442,2025-06-19,Dodger Stadium,Los Angeles Dodgers,San Diego Padres,0.292,0.27,2.76,1.88,False
+777027,2025-07-23,Rogers Centre,Toronto Blue Jays,New York Yankees,0.217,0.255,3.88,2.62,False
+777402,2025-06-22,loanDepot park,Miami Marlins,Atlanta Braves,0.289,0.396,6.69,4.77,True
+777843,2025-05-20,Sutter Health Park,Athletics,Los Angeles Angels,0.232,0.278,5.06,5.32,False
+776945,2025-07-29,Angel Stadium,Los Angeles Angels,Texas Rangers,0.273,0.259,3.3,3.78,True
+777715,2025-05-30,Citizens Bank Park,Philadelphia Phillies,Milwaukee Brewers,0.259,0.269,3.53,1.69,True
+777595,2025-06-08,PNC Park,Pittsburgh Pirates,Philadelphia Phillies,0.227,0.239,1.88,3.1,False
+776917,2025-08-01,Nationals Park,Washington Nationals,Milwaukee Brewers,0.28,0.223,5.35,3.5,True
+776940,2025-07-30,Comerica Park,Detroit Tigers,Arizona Diamondbacks,0.253,0.247,4.77,3.2,False
+777480,2025-06-17,Nationals Park,Washington Nationals,Colorado Rockies,0.275,0.237,5.06,6.72,True
+776769,2025-08-12,Daikin Park,Houston Astros,Boston Red Sox,0.318,0.286,6.38,4.67,False
+777206,2025-07-06,Dodger Stadium,Los Angeles Dodgers,Houston Astros,0.278,0.257,2.0,4.61,False
+777082,2025-07-20,loanDepot park,Miami Marlins,Kansas City Royals,0.289,0.246,3.09,2.38,False
+777414,2025-06-21,Angel Stadium,Los Angeles Angels,Houston Astros,0.267,0.324,3.39,3.8,False
+777118,2025-07-13,Busch Stadium,St. Louis Cardinals,Atlanta Braves,0.297,0.27,3.5,1.8,False
+777750,2025-05-27,Kauffman Stadium,Kansas City Royals,Cincinnati Reds,0.232,0.299,1.75,4.6,False
+777354,2025-06-26,Progressive Field,Cleveland Guardians,Toronto Blue Jays,0.306,0.272,3.9,4.21,False
+777157,2025-07-11,Oriole Park at Camden Yards,Baltimore Orioles,Miami Marlins,0.259,0.287,4.24,3.61,True
+777613,2025-06-06,Sutter Health Park,Athletics,Baltimore Orioles,0.27,0.268,5.21,4.98,False
+777718,2025-05-30,Citi Field,New York Mets,Colorado Rockies,0.278,0.262,2.69,5.72,True
+777162,2025-07-09,Petco Park,San Diego Padres,Arizona Diamondbacks,0.259,0.25,4.88,5.16,False
+776967,2025-07-28,Great American Ball Park,Cincinnati Reds,Los Angeles Dodgers,0.269,0.24,6.26,2.63,True
+777287,2025-07-01,Wrigley Field,Chicago Cubs,Cleveland Guardians,0.237,0.296,2.65,3.86,False
+777818,2025-05-22,Yankee Stadium,New York Yankees,Texas Rangers,0.267,0.29,2.88,1.6,False
+777477,2025-06-17,George M. Steinbrenner Field,Tampa Bay Rays,Baltimore Orioles,0.234,0.255,3.88,4.8,False
+777241,2025-07-05,Citi Field,New York Mets,New York Yankees,0.259,0.247,6.14,3.3,True
+777105,2025-07-18,Progressive Field,Cleveland Guardians,Athletics,0.239,0.248,3.84,5.13,False
+777881,2025-05-17,Wrigley Field,Chicago Cubs,Chicago White Sox,0.285,0.286,2.98,4.69,True
+777164,2025-07-11,Rate Field,Chicago White Sox,Cleveland Guardians,0.248,0.289,4.26,4.0,False
+777155,2025-07-11,Fenway Park,Boston Red Sox,Tampa Bay Rays,0.257,0.283,4.13,2.86,True
+777042,2025-07-22,Nationals Park,Washington Nationals,Cincinnati Reds,0.279,0.268,3.39,6.65,False
+777485,2025-06-16,Sutter Health Park,Athletics,Houston Astros,0.258,0.32,3.5,4.31,True
+777338,2025-06-27,Rate Field,Chicago White Sox,San Francisco Giants,0.264,0.282,4.74,3.43,True
+777090,2025-07-19,PNC Park,Pittsburgh Pirates,Chicago White Sox,0.244,0.282,4.7,1.89,False
+777341,2025-06-27,PNC Park,Pittsburgh Pirates,New York Mets,0.224,0.262,3.9,3.3,False
+777529,2025-06-13,Kauffman Stadium,Kansas City Royals,Athletics,0.249,0.262,3.38,4.47,True
+777099,2025-07-18,T-Mobile Park,Seattle Mariners,Houston Astros,0.289,0.258,3.21,3.66,False
+777505,2025-06-15,Comerica Park,Detroit Tigers,Cincinnati Reds,0.5,0.29,4.09,6.75,False
+777242,2025-07-04,Rogers Centre,Toronto Blue Jays,Los Angeles Angels,0.218,0.266,2.65,4.68,False
+777323,2025-06-28,Fenway Park,Boston Red Sox,Toronto Blue Jays,0.252,0.274,3.99,4.29,True
+777680,2025-06-01,T-Mobile Park,Seattle Mariners,Minnesota Twins,0.272,0.257,3.03,3.58,False
+777793,2025-05-24,Nationals Park,Washington Nationals,San Francisco Giants,0.295,0.263,3.42,3.86,True
+777443,2025-06-19,Globe Life Field,Texas Rangers,Kansas City Royals,0.254,0.238,3.38,3.24,True
+776941,2025-07-30,Great American Ball Park,Cincinnati Reds,Los Angeles Dodgers,0.269,0.24,4.61,2.4,True
+777360,2025-06-25,Petco Park,San Diego Padres,Washington Nationals,0.288,0.283,3.36,3.09,False
+777106,2025-07-18,Citizens Bank Park,Philadelphia Phillies,Los Angeles Angels,0.288,0.278,4.29,5.75,True
+777512,2025-06-14,American Family Field,Milwaukee Brewers,St. Louis Cardinals,0.299,0.26,3.35,4.83,True
+777731,2025-05-28,Wrigley Field,Chicago Cubs,Colorado Rockies,0.256,0.262,3.08,4.24,True
+777657,2025-06-03,Dodger Stadium,Los Angeles Dodgers,New York Mets,0.288,0.284,5.17,3.77,True
+776916,2025-08-01,Angel Stadium,Los Angeles Angels,Chicago White Sox,0.271,0.291,4.49,4.25,False
+777220,2025-07-06,Target Field,Minnesota Twins,Tampa Bay Rays,0.27,0.289,2.76,2.82,True
+776959,2025-07-28,Petco Park,San Diego Padres,New York Mets,0.268,0.26,4.79,5.46,False
+777095,2025-07-19,George M. Steinbrenner Field,Tampa Bay Rays,Baltimore Orioles,0.316,0.258,3.53,4.06,True
+777618,2025-06-06,Rate Field,Chicago White Sox,Kansas City Royals,0.317,0.244,3.62,3.46,False
+777602,2025-06-08,Great American Ball Park,Cincinnati Reds,Arizona Diamondbacks,0.292,0.259,4.59,5.15,False
+777644,2025-06-05,Yankee Stadium,New York Yankees,Cleveland Guardians,0.239,0.306,1.78,4.87,False
+777813,2025-05-23,Truist Park,Atlanta Braves,San Diego Padres,0.5,0.289,3.36,2.72,True
+777006,2025-07-25,Angel Stadium,Los Angeles Angels,Seattle Mariners,0.278,0.274,3.79,2.91,True
+777432,2025-06-20,PNC Park,Pittsburgh Pirates,Texas Rangers,0.213,0.286,4.82,2.24,True
+777515,2025-06-14,Chase Field,Arizona Diamondbacks,San Diego Padres,0.256,0.266,5.19,2.33,False
+777041,2025-07-23,Truist Park,Atlanta Braves,San Francisco Giants,0.244,0.267,3.72,4.7,False
+777110,2025-07-18,George M. Steinbrenner Field,Tampa Bay Rays,Baltimore Orioles,0.317,0.256,4.35,5.58,True
+777758,2025-05-26,Citi Field,New York Mets,Chicago White Sox,0.272,0.296,2.98,5.16,False
